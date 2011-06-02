@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  location: MyString
+  time: 2011-06-02 16:12:40
+  comments: MyString
+  havedba: 
+
+two:
+  name: MyString
+  email: MyString
+  location: MyString
+  time: 2011-06-02 16:12:40
+  comments: MyString
+  havedba: 

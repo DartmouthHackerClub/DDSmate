@@ -1,0 +1,28 @@
+<h1>Editing meal date</h1>
+
+<% form_for(@meal) do |f| %>
+  <%= f.error_messages %>
+
+  <p>  <p>
+    <%= f.label "Where do you want to eat?" %>
+    <%= f.text_field :location %>
+  </p>
+  <p>
+    <%= f.label "When do you want to eat?" %>
+    <%= calendar_date_select_tag :time, DateTime.now(), :time => true, :default_time => DateTime.now() %>
+  </p>
+  <p>
+    <%= f.label "I have spare DBA:" %>
+    <%= f.text_field :havedba %>
+  </p>
+  <p>
+    <%= f.label "Anything you want to say?" %>
+    <%= f.text_field :comments %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @meal %> |
+<%= link_to 'Back', meals_path %>
