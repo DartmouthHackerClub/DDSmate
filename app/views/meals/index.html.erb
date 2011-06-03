@@ -12,7 +12,7 @@
   <tr>
     <td><a href="mailto:<%=h meal.email %>"> <%=h meal.name %></td>
     <td><%=h meal.location %></td>
-    <td><%=h meal.time.strftime("%Y-%m-%d %H:%M") %></td>
+    <td><%=h meal.time %></td>
     <td><%=h meal.comments %></td>
     <td><%=h meal.havedba ? "Yes" : "No"  %></td>
     <% if (meal.uid == @uid)  %>
@@ -25,4 +25,4 @@
 
 <br />
 
-<%= link_to 'New meal', new_meal_path %>
+<%= link_to 'New meal date', new_meal_path %>
