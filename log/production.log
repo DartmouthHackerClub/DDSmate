@@ -58769,3 +58769,1049 @@ Processing MealsController#create (for 129.170.216.244 at 2011-06-03 01:21:47) [
 Rendering template within layouts/meals
 Rendering meals/new
 Completed in 21ms (View: 16, DB: 1) | 200 OK [http://hacktown.cs.dartmouth.edu/ddsmate/meals]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:42:27) [GET]
+Redirected to https://login.dartmouth.edu/cas/login?service=http%3A%2F%2Fddsmate.hacktown.cs.dartmouth.edu%2Fddsmate%2Fmeals
+Filter chain halted as [CASClient::Frameworks::Rails::Filter] rendered_or_redirected.
+Completed in 9ms (DB: 0) | 302 Found [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:42:27) [GET]
+  Parameters: {"ticket"=>"ST-108949-4V7d5j4bqDncp70rdz7j-janus"}
+Ticket "ST-108949-4V7d5j4bqDncp70rdz7j-janus" for service "http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals" belonging to user "Julian O. B. Bangert@DARTMOUTH.EDU" is VALID.
+Rendering template within layouts/meals
+Rendering meals/index
+
+ActionView::TemplateError (undefined method `calendar_date_select_includes' for #<ActionView::Base:0x7f31d7340d18>) on line #10 of app/views/layouts/meals.html.erb:
+7:   <title>Meals: <%= controller.action_name %></title>
+8:   <%= stylesheet_link_tag 'scaffold' %>
+9:   <%= javascript_include_tag :defaults %>
+10:   <%= calendar_date_select_includes "silver" %>
+11:   
+12: </head>
+13: <body>
+
+    app/views/layouts/meals.html.erb:10
+    app/controllers/meals_controller.rb:9:in `index'
+
+Rendering /srv/http/DDSmate/public/500.html (500 Internal Server Error)
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:42:37) [GET]
+  Parameters: {"ticket"=>"ST-108949-4V7d5j4bqDncp70rdz7j-janus"}
+Re-using previously validated ticket since the ticket id and service are the same.
+Rendering template within layouts/meals
+Rendering meals/index
+
+ActionView::TemplateError (undefined method `calendar_date_select_includes' for #<ActionView::Base:0x7f31d76b6f60>) on line #10 of app/views/layouts/meals.html.erb:
+7:   <title>Meals: <%= controller.action_name %></title>
+8:   <%= stylesheet_link_tag 'scaffold' %>
+9:   <%= javascript_include_tag :defaults %>
+10:   <%= calendar_date_select_includes "silver" %>
+11:   
+12: </head>
+13: <body>
+
+    app/views/layouts/meals.html.erb:10
+    app/controllers/meals_controller.rb:9:in `index'
+
+Rendering /srv/http/DDSmate/public/500.html (500 Internal Server Error)
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:43:42) [GET]
+  Parameters: {"ticket"=>"ST-108949-4V7d5j4bqDncp70rdz7j-janus"}
+Re-using previously validated ticket since the ticket id and service are the same.
+Rendering template within layouts/meals
+Rendering meals/index
+
+ActionView::TemplateError (undefined method `calendar_date_select_includes' for #<ActionView::Base:0x7f343f3819c0>) on line #10 of app/views/layouts/meals.html.erb:
+7:   <title>Meals: <%= controller.action_name %></title>
+8:   <%= stylesheet_link_tag 'scaffold' %>
+9:   <%= javascript_include_tag :defaults %>
+10:   <%= calendar_date_select_includes "silver" %>
+11:   
+12: </head>
+13: <body>
+
+    app/views/layouts/meals.html.erb:10
+    app/controllers/meals_controller.rb:9:in `index'
+
+Rendering /srv/http/DDSmate/public/500.html (500 Internal Server Error)
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:43:43) [GET]
+  Parameters: {"ticket"=>"ST-108949-4V7d5j4bqDncp70rdz7j-janus"}
+Re-using previously validated ticket since the ticket id and service are the same.
+Rendering template within layouts/meals
+Rendering meals/index
+
+ActionView::TemplateError (undefined method `calendar_date_select_includes' for #<ActionView::Base:0x7f343f21f118>) on line #10 of app/views/layouts/meals.html.erb:
+7:   <title>Meals: <%= controller.action_name %></title>
+8:   <%= stylesheet_link_tag 'scaffold' %>
+9:   <%= javascript_include_tag :defaults %>
+10:   <%= calendar_date_select_includes "silver" %>
+11:   
+12: </head>
+13: <body>
+
+    app/views/layouts/meals.html.erb:10
+    app/controllers/meals_controller.rb:9:in `index'
+
+Rendering /srv/http/DDSmate/public/500.html (500 Internal Server Error)
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"ticket"=>"ST-108949-4V7d5j4bqDncp70rdz7j-janus"}
+Re-using previously validated ticket since the ticket id and service are the same.
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals?ticket=ST-108949-4V7d5j4bqDncp70rdz7j-janus]
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/calendar_date_select/silver.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/application.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:06) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/calendar_date_select/calendar_date_select.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing MealsController#new (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+Rendering template within layouts/meals
+Rendering meals/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals/new]
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/calendar_date_select/silver.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/application.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:07) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/calendar_date_select/calendar_date_select.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:45:08) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:35) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:35) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:35) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:35) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:35) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:36) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 57ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:37) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:38) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:38) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:38) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:38) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:38) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:39) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:39) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:39) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 56ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:39) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:41) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:42) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:42) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:43) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:44) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:44) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:44) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:44) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 57ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:45) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:45) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:45) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:45) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:45) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:45) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:46) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 17:52:47) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#new (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+Rendering template within layouts/meals
+Rendering meals/new
+Completed in 11ms (View: 8, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals/new]
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/calendar_date_select/silver.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/application.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/calendar_date_select/calendar_date_select.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:22) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:54:27) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing MealsController#new (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+Rendering template within layouts/meals
+Rendering meals/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals/new]
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/calendar_date_select/silver.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/application.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/calendar_date_select/calendar_date_select.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:33) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing MealsController#new (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+Rendering template within layouts/meals
+Rendering meals/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals/new]
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/calendar_date_select/silver.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/application.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/calendar_date_select/calendar_date_select.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing MealsController#new (for 129.170.210.173 at 2012-11-07 17:58:39) [GET]
+Rendering template within layouts/meals
+Rendering meals/new
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/ddsmate/meals/new]
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/calendar_date_select/silver.css" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/application.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/javascripts/calendar_date_select/calendar_date_select.js" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:40) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:44) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:45) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 17:58:45) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 18:00:46) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 18:00:47) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 129.170.210.173 at 2012-11-07 18:00:47) [GET]
+  Parameters: {"1352324752"=>nil}
+
+ActionController::RoutingError (No route matches "/images/calendar_date_select/calendar.gif" with {:method=>:get}):
+  
+
+Rendering /srv/http/DDSmate/public/404.html (404 Not Found)
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 18:07:09) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/]
+
+
+Processing MealsController#new (for 129.170.210.173 at 2012-11-07 18:07:11) [GET]
+Rendering template within layouts/meals
+Rendering meals/new
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/meals/new]
+
+
+Processing MealsController#index (for 129.170.210.173 at 2012-11-07 18:07:16) [GET]
+Rendering template within layouts/meals
+Rendering meals/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://ddsmate.hacktown.cs.dartmouth.edu/meals]
